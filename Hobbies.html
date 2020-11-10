@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title> Rijan Bahadur Pradhan: My Portfolio</title>
+        <link href="./css/style.css" rel="stylesheet" style-type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <!--internal CSS-->
+        <style>
+        article{
+          float:left;
+          width:60%;  
+          
+        }
+        article p{
+          line-height: 150%;
+          word-spacing: 0.2em;
+          font-size:14px;
+        }
+
+        h2{
+          padding: 10px 0 10px 0;
+        }
+
+        .hobby{
+          padding:20px;
+        }
+        .container:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+       
+
+
+        .novel{
+          width:100%;
+          height:80%;
+        }
+
+        @media only screen and (max-width: 640px){
+      article,aside#sidebar{
+        float:none;
+        width:100%;
+      }
+    }
+
+        </style>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="content">
+                <div id="Tagline">
+                    <img src="./images/logo1.png" alt="my logo">
+                    <h1 class="blurb">Rijan Bahadur Pradhan</h1>
+                    <h3 class="blurb">Make it Happen</h3>
+                </div>
+                <nav>
+                        <ul>
+                            <li><a href="index.html" >Home</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="Achievements.html">Achievements</a></li>
+                            <li><a href="Biography.html">Biography</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Hobbies.html" class="active">Hobbies</a></li>
+                            <li><a href="Future Goals.html">Future Goals</a></li>
+                            <li><a href="Contact me.html">Contact me</a></li>
+                        </ul> 
+                </nav>
+            </div>    
+        </header>
+        
+        <section id="main">
+          <div class="container">
+            <article>
+
+              <h2>My hobbies and Interests</h2>
+              <p>There are many hobbies that I have. Most of the prominent I have is to read novels. Other one is customizing the devices such as mobile/PC</p>
+              <div class="hobby">
+              <h3> Reading Novels</h3>
+              <img class="novel" src="./images/book.jpg" alt="book" >
+              <p>It happened four years back when I was in grade 10. I was reading comic book but it had only few chapters uploaded to hosting site
+                But my curiosity for the plot was deep so I browsed the internet and found that it had a novel as well. Since then I began to 
+                passionately read novels which mainly consisted of the asian novels (chinese, japanese, korean). But I also love read many English Novels
+                as well. </p> <br/><br/>
+
+              <h3>Customizing PC/Mobile Phones</h3>
+              <img class="novel" src="./images/customize.jpg" alt="customize" >
+              <p>Since I had my hands on android phone, I always loved to customize to improve the performance of the device. Aside from phones, 
+                I also like to do same for the laptops as well. Changing the original firmware and replacing it with customized rom that is 
+                much faster and better is what I like to do with my devices. But doing so voids the warranty of the device so I always do it after
+                the warranty expires.
+              </p>
+
+              </div>
+               
+
+              
+            </article>
+            
+            <aside id="sidebar">
+              <h2> Latest News</h2><br/>
+                <h3> Website Created using HTML and CSS </h3>
+                <h4> 7th October, 2020</h4><br/>
+                <p>  With the help of online resource and w3school, i learned how to make the website running with semantic tags.</p><br/><br/>
+                <h3> Javascript and C# in learning process</h3>
+                <h4> 7th October, 2020</h4><br/>
+                <p>  I am beginning to understand how the javascript works. I learnt this language because its very interactive and we can create UI easily.
+                  Also trying to learn C# due to Unity for making games.
+                </p>
+              <br/>
+              <form action="/action_page.php">
+              <p><span>Search:</span><input type="text" placeholder="Search for any keyword"></p><br/>
+              <p>Follow me on:</p></br>
+              <a href="http://facebook.com"><img src="./images/f.jpg"/></a><a href="http://instagram.com"><img src="./images/i.jpg"/></a><a href="http://linkedin.com"><img src="./images/l.jpg"/></a>
+              </form>
+            </aside>
+          </div>
+        </section>
+        <footer>
+               <p> This website and its content is copyright of Rijan Bahadur Pradhan - © Federation University [2020]. All rights reserved.</p> 
+        </footer>
+  </body>
+</html>
